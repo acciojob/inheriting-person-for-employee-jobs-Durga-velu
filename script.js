@@ -7,7 +7,7 @@ function Person(name, age) {
 		 this.age=age;
 	 }
 
-   greet(){
+  this.greet=function(){
 
 	console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
    }
@@ -17,13 +17,13 @@ function Person(name, age) {
 
 function Employee(name, age, jobTitle) {
 
-	constructor(name,age,jobTitle){
+	constructor(name,age,jobTitle{
 		super()
 		this.name=name;
 		this.age=age;
 		this.jobTitle=jobTitle;
 	}
-	jobGreet(){
+	this.jobGreet=function(){
 	   console.log(`Hello, my name is ${this.name} , I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 	}
 }
